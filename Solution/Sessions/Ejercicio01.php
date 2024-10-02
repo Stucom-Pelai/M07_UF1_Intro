@@ -8,6 +8,7 @@ if (!isset($_SESSION['softDrink'])) {
 if (!isset($_SESSION['milk'])) {
     $_SESSION['milk'] = 0;
 }
+
 // if form POST has been submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // get form data
